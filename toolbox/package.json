@@ -1,0 +1,25 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "\"text toolbox\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "lint": "standard",
+    "test": "mocha tests/polindromo.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^9.0.3",
+    "supertest": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "standard": "^16.0.3"
+  }
+}
